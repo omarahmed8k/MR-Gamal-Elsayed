@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MR-Gamal-Elsayed/static/css/main.073c9b0a.css",
+    "main.js": "/MR-Gamal-Elsayed/static/js/main.00e5c888.js",
+    "static/js/787.f4a5e4b9.chunk.js": "/MR-Gamal-Elsayed/static/js/787.f4a5e4b9.chunk.js",
+    "static/media/logo.svg": "/MR-Gamal-Elsayed/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MR-Gamal-Elsayed/index.html",
+    "main.073c9b0a.css.map": "/MR-Gamal-Elsayed/static/css/main.073c9b0a.css.map",
+    "main.00e5c888.js.map": "/MR-Gamal-Elsayed/static/js/main.00e5c888.js.map",
+    "787.f4a5e4b9.chunk.js.map": "/MR-Gamal-Elsayed/static/js/787.f4a5e4b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.00e5c888.js"
+  ]
+}
