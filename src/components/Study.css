@@ -1,0 +1,78 @@
+.studySection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.studySection ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 55px;
+}
+
+.studySection ul li {
+  width: calc(100% / 3.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.studySection ul li .imgDiv {
+  background: var(--main-gradiant);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.studySection ul li .imgDiv img {
+  height: 50px;
+}
+
+.studySection ul li h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-align: center;
+  margin: 0;
+}
+
+.studySection .liveSvg {
+  height: 100%;
+  width: 100%;
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("./../assets/images/live.png");
+}
+
+@media (max-width: 992px) {
+  .studySection {
+    padding-top: 0px;
+  }
+
+  .studySection .row {
+    flex-direction: column-reverse;
+  }
+
+  .studySection .liveSvg {
+    height: 350px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-position: center;
+  }
+}
+
+@media (max-width: 1199px) {
+  .studySection ul li h3 {
+    font-size: 16px;
+  }
+}

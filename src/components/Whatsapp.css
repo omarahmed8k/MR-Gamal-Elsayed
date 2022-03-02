@@ -1,0 +1,25 @@
+.whatsIcon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #25d366;
+  text-decoration: none;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+
+.whatsIcon svg {
+  color: #fff;
+  font-size: 38px;
+}
+
+@media (max-width: 767px) {
+  .whatsIcon {
+    bottom: 30px;
+    left: 15px;
+  }
+}
