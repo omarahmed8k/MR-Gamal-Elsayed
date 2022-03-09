@@ -1,9 +1,10 @@
 import React from "react";
 import "./Background.css";
+import Fade from "react-reveal/Fade";
 
 export default function Header() {
   return (
-    <div>
+    <Fade bottom>
       <div className="backgroundSection container">
         <div className="rightDiv">
           <h6>مدرس أول اللغة العربية للمرحلة الثانوية</h6>
@@ -16,6 +17,6 @@ export default function Header() {
         </div>
         <div className="leftDiv"></div>
       </div>
-    </div>
+    </Fade>
   );
 }

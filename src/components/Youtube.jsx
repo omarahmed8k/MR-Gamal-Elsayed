@@ -1,9 +1,10 @@
 import React from "react";
 import "./Youtube.css";
+import Fade from "react-reveal/Fade";
 
 export default function Youtube() {
   return (
-    <div>
+    <Fade bottom>
       <div className="youtubeSection container">
         <div className="row">
           <div className="col-lg-12">
@@ -17,6 +18,6 @@ export default function Youtube() {
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 }

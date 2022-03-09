@@ -1,10 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Whatsapp.css";
+import Fade from "react-reveal/Fade";
 
 export default function Whatsapp() {
   return (
-    <div>
+    <Fade Bottom>
       <a
         href="https://wa.link/yn6t31"
         target="_blank"
@@ -13,6 +14,6 @@ export default function Whatsapp() {
       >
         <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
       </a>
-    </div>
+    </Fade>
   );
 }

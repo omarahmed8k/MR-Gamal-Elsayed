@@ -1,10 +1,11 @@
 import React from "react";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Fade from "react-reveal/Fade";
 
 export default function Contact() {
   return (
-    <div>
+    <Fade bottom>
       <div className="contactSection" id="contact">
         <div className="container">
           <h3>تواصل معنا</h3>
@@ -53,6 +54,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 }

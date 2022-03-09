@@ -1,9 +1,10 @@
 import React from "react";
 import "./Experiance.css";
+import Fade from "react-reveal/Fade";
 
 export default function Youtube() {
   return (
-    <div>
+    <Fade bottom>
       <div className="experianceSection" id="experiance">
         <div className="container">
           <div className="row">
@@ -23,6 +24,6 @@ export default function Youtube() {
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 }

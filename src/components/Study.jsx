@@ -6,10 +6,11 @@ import img3 from "./../assets/images/img3.png";
 import img4 from "./../assets/images/img4.png";
 import img5 from "./../assets/images/img5.png";
 import img6 from "./../assets/images/img6.png";
+import Fade from "react-reveal/Fade";
 
 export default function Study() {
   return (
-    <div>
+    <Fade bottom>
       <div className="studySection container" id="study">
         <div className="row">
           <div className="col-lg-6">
@@ -57,6 +58,6 @@ export default function Study() {
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 }

@@ -2,10 +2,11 @@ import React from "react";
 import logo from "./../assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.css";
+import Fade from "react-reveal/Fade";
 
 export default function Header() {
   return (
-    <div>
+    <Fade bottom>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <div className="navbar-brand">
@@ -44,6 +45,6 @@ export default function Header() {
           </div>
         </div>
       </nav>
-    </div>
+    </Fade>
   );
 }
