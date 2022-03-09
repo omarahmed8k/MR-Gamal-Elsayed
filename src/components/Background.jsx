@@ -4,8 +4,8 @@ import Fade from "react-reveal/Fade";
 
 export default function Header() {
   return (
-    <Fade bottom>
-      <div className="backgroundSection container">
+    <div className="backgroundSection container">
+      <Fade bottom>
         <div className="rightDiv">
           <h6>مدرس أول اللغة العربية للمرحلة الثانوية</h6>
           <h1>
@@ -15,8 +15,8 @@ export default function Header() {
           </h1>
           <a href="#contact">تواصل معنا</a>
         </div>
-        <div className="leftDiv"></div>
-      </div>
-    </Fade>
+      </Fade>
+      <div className="leftDiv"></div>
+    </div>
   );
 }
