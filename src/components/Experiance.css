@@ -1,0 +1,56 @@
+.experianceSection {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/experiance.png");
+}
+
+.experianceSection h2 {
+  font-size: 26px;
+  font-family: "kufi-bold", sans-serif;
+  margin-bottom: 30px;
+  line-height: 2;
+  color: #fff;
+}
+
+.experianceSection h2::after {
+  content: "";
+  display: block;
+  width: 10%;
+  background: #fff;
+  height: 10px;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+.experianceSection ul {
+  margin: 0;
+  width: 70%;
+}
+
+.experianceSection ul li {
+  font-size: 18px;
+  font-family: "kufi-bold", sans-serif;
+  line-height: 3;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .experianceSection {
+    background-image: url("../assets/images/experiance-sm.png");
+  }
+  .experianceSection ul {
+    width: 100%;
+  }
+  .experianceSection h2 {
+    font-size: 20px;
+  }
+  .experianceSection h2::after {
+    width: 20%;
+  }
+  .experianceSection ul li {
+    font-size: 14px;
+  }
+}

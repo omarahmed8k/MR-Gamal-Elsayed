@@ -54,9 +54,15 @@
   background-image: url("./../assets/images/live.png");
 }
 
+@media (max-width: 1199px) {
+  .studySection ul li h3 {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 992px) {
-  .studySection {
-    padding-top: 0px;
+  .studySection ul li {
+    width: calc(100% / 2);
   }
 
   .studySection .row {
@@ -65,14 +71,14 @@
 
   .studySection .liveSvg {
     height: 350px;
-    margin-top: 0px;
+    margin-top: 70px;
     margin-bottom: 50px;
     background-position: center;
   }
 }
 
-@media (max-width: 1199px) {
-  .studySection ul li h3 {
-    font-size: 16px;
+@media (max-width: 767px) {
+  .studySection .liveSvg {
+    margin-top: 0px;
   }
 }

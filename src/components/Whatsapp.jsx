@@ -5,7 +5,12 @@ import "./Whatsapp.css";
 export default function Whatsapp() {
   return (
     <div>
-      <a href="#whats" className="whatsIcon">
+      <a
+        href="https://wa.link/yn6t31"
+        target="_blank"
+        className="whatsIcon"
+        rel="noreferrer"
+      >
         <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
       </a>
     </div>

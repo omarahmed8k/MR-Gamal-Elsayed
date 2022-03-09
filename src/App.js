@@ -4,6 +4,9 @@ import Header from "./components/Header";
 import Background from "./components/Background";
 import Whatsapp from "./components/Whatsapp";
 import Study from "./components/Study";
+import Youtube from "./components/Youtube";
+import Experiance from "./components/Experiance";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Background />
       <Whatsapp />
       <Study />
+      <Youtube />
+      <Experiance />
+      <Contact />
     </div>
   );
 }

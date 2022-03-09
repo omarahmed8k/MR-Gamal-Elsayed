@@ -57,6 +57,16 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("./../assets/images/sidePhoto.png");
+  animation: BG 2s ease-in-out infinite alternate;
+}
+
+@keyframes BG {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
 
 @media (max-width: 1199px) {
@@ -78,7 +88,6 @@
     flex-direction: column;
     padding-top: 30px;
     padding-bottom: 0px;
-    height: 100vh;
   }
   .backgroundSection .rightDiv {
     width: 100%;
@@ -87,8 +96,13 @@
 
 @media (max-width: 767px) {
   .backgroundSection .leftDiv {
+    position: relative;
     width: 100%;
-    top: 480px;
+    top: 0px;
+    left: 0px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .backgroundSection .rightDiv h6 {
     font-size: 18px;
@@ -98,5 +112,17 @@
   }
   .backgroundSection .rightDiv a {
     width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .backgroundSection .leftDiv {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .backgroundSection .leftDiv {
+    left: -12px;
   }
 }
